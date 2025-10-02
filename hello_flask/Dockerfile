@@ -17,6 +17,6 @@ RUN apt-get update && apt-get install -y \
 
 RUN pip install flask mysqlclient
 
-EXPOSE 5002
+EXPOSE 5003
 
 CMD ["python", "/app.py"]

@@ -34,3 +34,8 @@ docker build -t hello-flask .
 
 #stop containers
 docker stop myapp
+
+
+
+#Docker compose, create yaml file then run 
+docker-compose up

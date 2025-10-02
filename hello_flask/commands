@@ -31,3 +31,6 @@ docker build -t hello-flask .
 
   # check the containers are running with 
   docker ps
+
+#stop containers
+docker stop myapp

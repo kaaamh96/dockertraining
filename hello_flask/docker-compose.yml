@@ -6,9 +6,9 @@ services:
     ports:
       - "5003:5003"
     depends_on:
-      - db
+      - mydb
 
-  db:
+  mydb:
     image: mysql:8
     environment:
       MYSQL_ROOT_PASSWORD: my-secret-pw

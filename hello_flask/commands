@@ -39,3 +39,4 @@ docker stop myapp
 
 #Docker compose, create yaml file then run 
 docker-compose up
+docker-compose down

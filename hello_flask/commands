@@ -43,3 +43,26 @@ docker-compose down
 
 # check logs
 docker-compose logs
+
+
+# docker images will list  even show  versions 
+docker images
+
+#docker inspect with image id 
+docker inspect 
+
+
+#docker rmi image id to remove image you dont need 
+docker rmi imageid
+
+#docker system prune removes all unused images and networks
+docker syystem prune 
+
+#docker ps to see what is running
+docker ps
+
+#docker stop to stop containers
+docker stop imageid imageid imageid
+
+#docker rm to remove as it still stays with stop
+docker rm imageid imageid

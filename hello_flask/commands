@@ -41,6 +41,9 @@ docker stop myapp
 docker-compose up
 docker-compose down
 
+# after editing compose file need to run with build
+docker-compose up --build
+
 # check logs
 docker-compose logs
 
@@ -66,3 +69,4 @@ docker stop imageid imageid imageid
 
 #docker rm to remove as it still stays with stop
 docker rm imageid imageid
+

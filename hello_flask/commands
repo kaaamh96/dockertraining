@@ -70,3 +70,5 @@ docker stop imageid imageid imageid
 #docker rm to remove as it still stays with stop
 docker rm imageid imageid
 
+#to scale after setting up nginx
+docker-compose up --scale web=3 --build
